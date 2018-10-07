@@ -1,17 +1,20 @@
 <template>
   <div class="row">
     <div class="col-lg-6 left-content">
-      <img class="teaser-img img-fluid" src="https://placekitten.com/1000/1000" alt="Macolor - We communicate colors"/>
+      <div class="jumbotron jumbotron-fluid">
+       <img class="teaser-img img-fluid" src="../assets/macolor_color_card.png" alt="Macolor - We communicate colors"/>
+      </div>
     </div>
     <div class="col-lg-6 right-content">
       <div class="row">
         <div class="col-lg-12">
-          <img class="logo img-fluid pt-4 mt-5" alt="Macolor Logo" src="../assets/logo_macolors.png">
+          <!--<img class="logo img-fluid pt-4 mt-5" alt="Macolor Logo" src="../assets/logo_macolors.png">-->
+          <h1 class="pt-4 mt-5 display-2">Macolor</h1>
           <h2 class="mt-5 pt-5 display-6">We communicate colors</h2>
-          <p class="lead mt-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p class="lead mt-2">Macolor is currently under heavy development. Stay tuned!</p>
         </div>
       </div>
-      <div class="row">
+      <!--<div class="row">
         <div class="col-lg-12">
           <form class="inline pt-4">
             <div class="form-row">
@@ -30,18 +33,21 @@
             </div>
           </form>
         </div>
+      </div>-->
+      <div class="row">
+        <div class="col-lg-12 pt-5 mt-5 mb-5"></div>
       </div>
       <div class="row">
         <div class="col-lg-12 footer">
           <ul class="nav justify-content-center pt-5 mt-5">
             <li class="nav-item">
-              <a class="nav-link" href="#">Instagram</a>
+              <a class="nav-link text-muted" href="#"><small>Instagram</small></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Imprint/Impressum</a>
+              <router-link class="nav-link text-muted" to="impressum"><small>Impressum</small></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data Privacy</a>
+              <router-link class="nav-link text-muted" to="datenschutz"><small>Datenschutz</small></router-link>
             </li>
           </ul>
         </div>
@@ -70,11 +76,21 @@ body, html {
 
 .home {
   position: relative;
-  background-image: url("../assets/out_test_2.png");
+  
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron {
+  background: white;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.left-content {
+  padding: 0px !important;
 }
 </style>
 
