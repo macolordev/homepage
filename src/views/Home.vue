@@ -41,7 +41,7 @@
         <div class="col-lg-12 footer">
           <ul class="nav justify-content-center pt-5 mt-5">
             <li class="nav-item">
-              <a class="nav-link text-muted" href="#"><small>Instagram</small></a>
+              <a class="nav-link text-muted" target="_blank" href="https://www.instagram.com/macoloryeah/"><small>Instagram</small></a>
             </li>
             <li class="nav-item">
               <router-link class="nav-link text-muted" to="impressum"><small>Impressum</small></router-link>
