@@ -9,9 +9,9 @@
       <div class="row">
         <div class="col-lg-12">
           <!--<img class="logo img-fluid pt-4 mt-5" alt="Macolor Logo" src="../assets/logo_macolors.png">-->
-          <h1 class="pt-4 mt-5 display-2">Macolor</h1>
+          <h1 class="pt-4 mt-5 display-2">macolor</h1>
           <h2 class="mt-5 pt-5 display-6">We communicate colors</h2>
-          <p class="lead mt-2">Macolor is currently under heavy development. Stay tuned!</p>
+          <p class="lead mt-2">macolor is currently under heavy development. Stay tuned!</p>
         </div>
       </div>
       <!--<div class="row">
